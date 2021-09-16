@@ -1,0 +1,20 @@
+.App{
+    background-color: aliceblue;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    width: 100px;
+
+}
+img{
+  width: 100px;
+  
+}
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
